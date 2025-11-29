@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram id="R1tLmw_lIQtawWTQ_Dp5" name="Page-1">
+    <mxGraphModel dx="1423" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Start" vertex="1">
+          <mxGeometry height="39" width="60" x="198" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Input IC number &amp; password" vertex="1">
+          <mxGeometry height="63" width="278" x="89" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Verify IC is 12 digits AND password = last 4 digits?" vertex="1">
+          <mxGeometry height="278" width="278" x="89" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-49" edge="1" parent="1" source="6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Show &quot;Invalid IC/password&quot;" vertex="1">
+          <mxGeometry height="39" width="247" x="563.5" y="489.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="IC already registered in CSV?" vertex="1">
+          <mxGeometry height="278" width="278" x="89" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Input new User ID" vertex="1">
+          <mxGeometry height="39" width="181" x="137.5" y="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Re-enter password" vertex="1">
+          <mxGeometry height="39" width="187" x="134.5" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Password matches last 4 digits?" vertex="1">
+          <mxGeometry height="278" width="278" x="89" y="1349" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-48" edge="1" parent="1" source="11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="500" />
+              <mxPoint x="910" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Show &quot;Registration failed&quot;" vertex="1">
+          <mxGeometry height="39" width="238" x="638" y="1468.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-52" edge="1" parent="1" source="12" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="1360" />
+            </Array>
+            <mxPoint x="20" y="1817" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Registration successful" vertex="1">
+          <mxGeometry height="54" width="223" x="116.5" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Input User ID" vertex="1">
+          <mxGeometry height="39" width="147" x="1154" y="869.5" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Input Annual Income" vertex="1">
+          <mxGeometry height="39" width="200" x="1126.5" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Input Tax Relief" vertex="1">
+          <mxGeometry height="39" width="166" x="1143.5" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Compute Chargeable Income = income – relief" vertex="1">
+          <mxGeometry height="78" width="260" x="1096.5" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Calculate Tax using brackets" vertex="1">
+          <mxGeometry height="78" width="260" x="1096.5" y="1507.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-69" edge="1" parent="1" source="18" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IoE2iFc_Z00VsBgBxn3A-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Display Tax Payable" vertex="1">
+          <mxGeometry height="39" width="193" x="1130" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Menu choice?" vertex="1">
+          <mxGeometry height="149" width="149" x="1151" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-53" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="2141.5" />
+            </Array>
+            <mxPoint x="1145" y="2331" as="sourcePoint" />
+            <mxPoint x="1153.0000000000002" y="2034.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="Display all records" vertex="1">
+          <mxGeometry height="39" width="185" x="1135" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="End" vertex="1">
+          <mxGeometry height="39" width="51" x="1600" y="2015" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IoE2iFc_Z00VsBgBxn3A-66" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="228" y="100.00000000000011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="228" y="174.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;" target="5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="5" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="6" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" source="5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="7" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" edge="1" parent="1" source="7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;" target="8" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" edge="1" parent="1" source="9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" edge="1" parent="1" source="10" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="11" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" edge="1" parent="1" source="10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="12" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" edge="1" parent="1" source="7" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="13" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" edge="1" parent="1" source="13" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" edge="1" parent="1" source="14" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;exitDx=0;exitDy=0;" target="15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" edge="1" parent="1" source="15" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1220" y="1180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" edge="1" parent="1" source="16" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" edge="1" parent="1" source="17" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" edge="1" parent="1" source="19" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="IoE2iFc_Z00VsBgBxn3A-65" value="Choice 1: View Records">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1227.5" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1227.5" y="2179" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-58" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1008.5" y="1028.5" />
+            </Array>
+            <mxPoint x="1010" y="2040" as="sourcePoint" />
+            <mxPoint x="1135" y="1028" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-59" connectable="0" parent="IoE2iFc_Z00VsBgBxn3A-58" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Choice 2: Calculate Another Tax" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-63" edge="1" parent="1" source="19" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="2050" as="sourcePoint" />
+            <mxPoint x="1480" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-64" connectable="0" parent="IoE2iFc_Z00VsBgBxn3A-63" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Choice 3: Exit" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Read CSV&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1167.5" y="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Read CSV file" vertex="1">
+          <mxGeometry height="60" width="120" x="168" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-70" edge="1" parent="1" source="IoE2iFc_Z00VsBgBxn3A-68" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoE2iFc_Z00VsBgBxn3A-68" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Save record to CSV" vertex="1">
+          <mxGeometry height="60" width="120" x="1166.5" y="1818.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
